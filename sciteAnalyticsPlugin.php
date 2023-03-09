@@ -30,6 +30,6 @@ class sciteAnalyticsPlugin extends GenericPlugin {
    * enable and disable plugins.
    */
 	public function getDescription() {
-		return 'This plugin is an example created for a tutorial on how to create a plugin.';
+		return 'This plugin integates a (scite.ai)[https://scite.ai/badge] badge to give a breakdown of article citations.';
 	}
 }
