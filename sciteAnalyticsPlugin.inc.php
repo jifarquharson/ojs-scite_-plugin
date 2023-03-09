@@ -7,7 +7,7 @@
  *
  * @class sciteAnalyticsPlugin
  * @brief plugin class for the scite Section Badge plugin.
- */
+ *
  *
  * @author jifarquharson
  *
