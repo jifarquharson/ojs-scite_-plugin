@@ -3,11 +3,17 @@
  * @file plugins/generic/sciteAnalytics/sciteAnalyticsPlugin.inc.php
  * 
  * Copyright 2023
+ * Distributed under the GNU GPL v3 or later. For full terms see the file LICENSE
+ *
+ * @class sciteAnalyticsPlugin
+ * @brief plugin class for the scite Section Badge plugin.
+ */
  *
  * @author jifarquharson
  *
  */
 import('lib.pkp.classes.plugins.GenericPlugin');
+
 class sciteAnalyticsPlugin extends GenericPlugin {
 	/**
 	 * Called as a plugin is registered to the registry
@@ -23,17 +29,6 @@ class sciteAnalyticsPlugin extends GenericPlugin {
 		}
 		return $success;
   	}
-	/*public function register($category, $path, $mainContextId = NULL) {
-
-    // Register the plugin even when it is not enabled
-    $success = parent::register($category, $path);
-
-		if ($success && $this->getEnabled()) {
-      // Do something when the plugin is enabled
-    }
-
-		return $success;
-	}*/
 
   /**
    * Provide a name for this plugin
@@ -54,12 +49,15 @@ class sciteAnalyticsPlugin extends GenericPlugin {
    * The description will appear in the plugins list where editors can
    * enable and disable plugins.
    */
-	public function getDescription() {
-		return 'This plugin integates a [scite.ai](https://scite.ai/badge) badge to give a breakdown of article citations.';
+	function getDescription() {
+		return __('plugins.generic.sciteAnalytics.description');
 	}
+	/*public function getDescription() {
+		return 'This plugin integates a [scite.ai](https://scite.ai/badge) badge to give a breakdown of article citations.';
+	}*/
 	
 	/**
-	 * Insert Connected Papers badge
+	 * Insert scite_ Section Badge
 	 * 
 	 * @param string $hookName Name of hook calling function
 	 * @param array $params 
