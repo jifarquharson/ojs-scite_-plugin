@@ -75,7 +75,7 @@ class sciteAnalyticsPlugin extends GenericPlugin {
 		$templateMgr->assign('DOI', $doi);
 
 		// get scite_ badge template
-		$badge = $this->getTemplateResource('sciteBadge.tpl');
+		$badge = $this->getTemplateResource('sciteSectionBadge.tpl');
 
 		if ($doi) {
 			$output =& $params[2]; 
