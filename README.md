@@ -8,7 +8,7 @@ scite_ receives the article DOI and creates a scite_ Section Badge. The Section 
 
 ## Screenshot
 
-![screenshot]()
+![screenshot](img/scite_screenshot.png)
 
 ## License
 
