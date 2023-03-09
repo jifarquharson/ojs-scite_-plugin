@@ -12,6 +12,6 @@ To add
 
 ## License
 
-Written by Jamie Farquharson ([Université de Strasbourg](https://ites.unistra.fr/)) for ([Volcanica](https://www.jvolcanica.org)). Acknowledgements to [scite_](https://scite.ai/).
+Written by Jamie Farquharson ([Université de Strasbourg](https://ites.unistra.fr/)) for [Volcanica](https://www.jvolcanica.org) (eISSN: 2610-3540). Acknowledgements to [scite_](https://scite.ai/).
 
 Released under the GNU General Public License v3 or later.
