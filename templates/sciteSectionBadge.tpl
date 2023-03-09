@@ -10,7 +10,7 @@
  *}
 
 <div class="scite-badge"
-     data-doi="{$doi|escape}"
+     data-doi="{$DOI|escape}"
      data-show-zero="false"
      data-small="false"
      data-show-labels="false"
