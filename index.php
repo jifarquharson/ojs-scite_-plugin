@@ -13,7 +13,7 @@
  *
  */
 
-require_once('sciteAnalyticsPlugin.php');
+require_once('sciteAnalyticsPlugin.inc.php');
 return new sciteAnalyticsPlugin();
 
 ?>
